@@ -1,0 +1,46 @@
+{
+  "name": "snmp-sysobjectid",
+  "version": "1.0.0",
+  "description": "A module that allows you to retrieve the device vendor, category, and model from a given SNMP sysObjectID. It also provides organization name for the given private enterprise number.",
+  "main": "dist/bundle.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "update-db": "node src/update-data.js",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthiganesh/snmp-sysObjectID.git"
+  },
+  "keywords": [
+    "snmp",
+    "enterprise",
+    "IANA",
+    "internet",
+    "Network",
+    "Management",
+    "sysObjectID",
+    "OID",
+    "MIB",
+    "Cisco",
+    "Switch",
+    "Router",
+    "Firewall"
+  ],
+  "author": "Parthiban parthinow@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parthiganesh/snmp-sysObjectID/issues"
+  },
+  "homepage": "https://github.com/parthiganesh/snmp-sysObjectID#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
