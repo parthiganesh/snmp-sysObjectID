@@ -7,7 +7,7 @@ SNMP (Simple Network Management Protocol) sysObjectID is an object identifier (O
 
 The OID (Object Identifier) to get sysObjectID is ".1.3.6.1.2.1.1.2". This is part of the SNMP MIB-II system group and is used to retrieve the OID of the device's sysObjectID. The value of sysObjectID uniquely identifies the type of device and the vendor that manufactured it.
 
-[![npm downloads](https://img.shields.io/npm/dt/snmp-sysObjectID.svg)](https://www.npmjs.com/package/snmp-sysObjectID)
+[![npm downloads](https://img.shields.io/npm/dt/snmp-sysobjectid.svg)](https://www.npmjs.com/package/snmp-sysObjectID)
 [![GitHub issues](https://img.shields.io/github/issues/parthiganesh/snmp-sysObjectID)](https://github.com/parthiganesh/snmp-sysObjectID/issues)
 ![License](https://img.shields.io/github/license/parthiganesh/snmp-sysObjectID)
 
