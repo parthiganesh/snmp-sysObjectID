@@ -25,7 +25,7 @@ console.log(org); // Output: Dell Inc.
 ```
 
 ```typescript
-import getDeviceInfo from 'snmp-sysobjectid';
+import {getDeviceInfo} from 'snmp-sysobjectid';
 
 const device = getDeviceInfo("1.3.6.1.4.1.11.2.14.11.7.1");
 console.log(device.vendor); // Hewlett-Packard
