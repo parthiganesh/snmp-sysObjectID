@@ -1,5 +1,18 @@
+import { sys } from 'typescript';
 import pens from './enterprise-numbers.json';
-import { sysObjectIDs, SysInfo } from './sysObjectIDs';
+import sysObjectIDs from './sysObjectIDs.json';
+
+interface SysInfo {
+  vendor: string;
+  category: string;
+  model: string;
+  roles?: string[];
+}
+
+interface SysObjIDInfo {
+  [key: string]: SysInfo
+}
+
 
 function getDeviceInfo(oid: string, default_value?: string): SysInfo {
 

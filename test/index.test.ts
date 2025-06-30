@@ -22,7 +22,7 @@ describe("getDeviceInfo", () => {
   test("should return device info for valid OID", () => {
     const oid = '1.3.6.1.4.1.9.1.516';
     const result = getDeviceInfo(oid);
-    expect(result).toEqual({ vendor: 'ciscoSystems', category: 'Switch', model: 'Cisco Catalyst 3750 Series' });
+    expect(result).toEqual({ vendor: 'ciscoSystems', category: 'Switch', model: 'Catalyst 3750-48PS-S',  "roles": ["Switch"] });
   });
 
   test('should return default values for invalid OID', () => {
