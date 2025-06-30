@@ -1,6 +1,6 @@
 {
   "name": "snmp-sysobjectid",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A module that allows you to retrieve the device vendor, category, and model from a given SNMP sysObjectID. It also provides organization name for the given private enterprise number.",
   "main": "dist/bundle.js",
   "types": "dist/types/index.d.ts",
